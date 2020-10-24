@@ -1,9 +1,5 @@
 qiankundai
 
-尝试下函数式编程
-
-去掉 catch catch catch ...
-
 ```
 import com.github.zeroGit.qiankundai.Base.Out;
 import com.github.zeroGit.qiankundai.Fs.ReadAllBytes;
