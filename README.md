@@ -8,8 +8,7 @@ public class Abc {
     public static void main(String[] args) {
 
         Out<byte[]> out;
-        if ((out = ReadAllBytes
-                .go("./abc.txt"))
+        if ((out = ReadAllBytes.go("./abc.txt"))
                 .err(() -> {
                     out.e.printStackTrace();
                 })
